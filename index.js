@@ -1,6 +1,4 @@
-const sum = (a, b) => a + b;
-const sum2 = (a, b) => a + b;
-const sum3 = (a, b) => a + b;
+const { sum, sum2, sum3 } = require("./functions");
 
 sum();
 sum2();
