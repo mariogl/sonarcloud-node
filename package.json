@@ -17,5 +17,12 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
     "jest": "^27.5.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!coverage/**/*",
+      "!.eslintrc.js"
+    ]
   }
 }
